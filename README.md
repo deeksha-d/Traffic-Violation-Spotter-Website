@@ -1,5 +1,5 @@
 # Traffic-Violation-Spotter-Website
-An inital webpage with basic css, javascript, ajax and php. 
+An inital webpage with basic css, javascript, bootstrap and php. 
 
 You can edit the CSS files to your liking.
 
