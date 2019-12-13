@@ -1,0 +1,259 @@
+.head{
+    display:block;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.top_nav{
+    list-style-type: none;
+    overflow:auto;
+    display: block;
+    background-color:black;
+    margin: 0px;
+}
+.top_nav li a{
+    text-decoration: none;
+    color:rgb(173,173,190);
+    font-size:115%;
+    font-weight:300;
+}
+
+.top_nav li{
+    float:right;
+    padding:10px;
+}
+
+.top_nav div{
+    background-color: white;
+}
+
+.imgm{
+    max-height: 50%;
+    width:100%;
+    margin:0;
+    padding:0;
+    
+}
+.top_nav li a:hover{
+    color:red;
+}
+.centered{
+    position: absolute;
+    top:50%;
+    width:100%;
+    left:10%;
+    color:white;
+    font-size: 200%;
+    font-weight: 900;
+}
+
+.heading{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align:center;
+    width:100%;
+    font-size:180%;
+    padding-top:30px;
+}
+.line{
+    margin-left: 35%;
+    margin-right:35%;
+    border-color:blue;
+
+}
+.row{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top:20px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align:center;
+    font-family: poppins,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 400;
+    display: flex;
+}
+
+.column {
+    flex: 25%;
+    padding: 5px;
+  }
+
+#faqp{
+    overflow:auto;
+    transition: transform .2s;
+}
+#faqp:hover{
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2); 
+}
+#faqp img{
+    
+    width:100%;
+    height: 100%;
+    position:relative;
+}
+
+
+#uploadp{
+    position:relative;
+    transition: transform .2s;
+}
+
+#uploadp img{
+    
+    width:43%;
+    height: 43%;
+    position:relative;
+}
+#uploadp:hover{
+    transform: scale(1.2); 
+}
+#awardsp{
+    overflow:auto;
+    transition: transform .2s;
+}
+#awardsp img{
+    width:47%;
+    height: 47%;
+    position:relative;
+
+}
+#awardsp:hover{
+    transform: scale(1.2); 
+}
+#awardsp{
+    overflow:auto;
+    transition: transform .2s;
+}
+#rulesp{
+    overflow:auto;
+    transition: transform .2s;
+}
+#rulesp:hover{
+    transform: scale(1.2); 
+}
+
+#rulesp img{
+    width:55%;
+    height: 55%;
+    position:relative;
+}
+
+#about_usp{
+    width: 100%;
+    font-size: 20px;
+    line-height: 1.9;
+    font-weight: 400;
+    display: flex;
+    height:50%;
+}
+.about_usc{
+    flex: 50%;
+    padding: 5px;
+    overflow: auto;
+}
+
+.about_usc img{
+    width:559px;
+    height:490px;
+    align-content: center;
+ 
+}
+.about_usc p{
+    text-align: justify;
+    padding-right:40px;
+    color:rgb(8, 139, 133);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.contact{
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    background-color:rgb(34,34,41);
+}
+.col{
+    border: 1px solid black;
+    height:300px;
+    flex:33.33%;
+    color:rgb(173,173,190);
+    text-align:center;
+    font-size:115%;
+}
+#email
+{
+    width:6%;
+    height:6%;
+}
+pre{
+    display:inline;
+}
+.contactt{
+    padding-left:20%;
+    padding-right:20%;
+    text-align:left;
+    font-family:Times Georgia, 'Times New Roman', Times, serif;
+}
+.header{
+    color:white;
+    font-family:Gill Sans;
+    font-weight:0;
+}
+#loc{
+    width:20px;
+    height:20px;
+}
+#location{
+    align-content:justify;
+    
+    line-height: 1.3;
+}  
+pre{
+    font-family:Times Georgia, 'Times New Roman', Times, serif;
+}
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  padding: 0px;
+  margin:0px;
+  position: relative;
+  display: block;
+}
+
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation 
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}*/
+/*
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}*/
